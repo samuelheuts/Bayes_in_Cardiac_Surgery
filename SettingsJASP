@@ -1,0 +1,41 @@
+SETTINGS IN JASP (version 0.18.2, Intel, for Mac) for the re-analysis of the FAME-3 3-year results as presented in 
+
+Statistical primer: an introduction into the principles of Bayesian statistical analyses in clinical trials
+
+by 
+
+Samuel Heuts, Michal J Kawczynski ,Bart J J Velders ,James M Brophy ,Graeme L Hickey ,Mariusz Kowalewski
+
+in the European Journal of Cardiothoracic Surgery, April 12th, 2025
+
+doi: https://doi.org/10.1093/ejcts/ezaf139
+
+FAME-3
+
+FAME-3, 3-year results, primary endpoint
+
+PCI total number of patients: 757
+CABG total number of patients: 743
+PCI number of events at 3 years: 91
+CABG number of events at 3 years: 68
+
+FAME-3, 3-year results, all-cause mortality
+
+PCI total number of patients: 757
+CABG total number of patients: 743
+PCI number of events at 3 years: 31
+CABG number of events at 3 years: 29
+
+Settings minimally informative prior for the primary endpoint and all-cause mortality analyses with minimal prior information:
+Prior mean () = 0 – on log OR scale
+Prior SD () = 2 – on log OR scale
+
+Settings literature-based prior (based on Kawczynski et al. JTCVS, 2024) for the all-cause mortality analysis informed by literature:
+Prior mean () = 0.307 – on log OR scale
+Prior SD () = 0.092 – on log OR scale
+
+Output settings:
+Prior and posterior plots: absolute risk
+
+ISCHEMIA 7-year results
+The posterior probability of the region of practical equivalence (ROPE) was calculated directly from the normally distributed data as presented in Figure 3(A) by Hochman et al. (Circulation, 2023).
