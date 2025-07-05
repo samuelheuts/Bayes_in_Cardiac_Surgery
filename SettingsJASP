@@ -10,6 +10,10 @@ in the European Journal of Cardiothoracic Surgery, April 12th, 2025
 
 doi: https://doi.org/10.1093/ejcts/ezaf139
 
+In JASP, use the 'Bayesian A/B test' which is based on the R package 'abtest' as presented in:
+
+Gronau Q.F., Raj K.N. A., Wagenmakers E. J. (2019). Informed Bayesian Inference for the A/B Test. arXiv preprint arXiv:1905.02068.
+
 FAME-3
 
 FAME-3, 3-year results, primary endpoint
